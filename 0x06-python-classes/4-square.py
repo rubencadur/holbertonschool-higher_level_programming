@@ -5,8 +5,8 @@
 class Square:
 
     """Class constructor."""
-    def __init__(self):
-        pass
+    def __init__(self, size=0):
+        self.__size = size
 
     """Setter method for the size property.
     Args:
